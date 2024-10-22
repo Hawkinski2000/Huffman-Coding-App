@@ -20,13 +20,8 @@ using namespace std;
 
   ostream& operator<<(ostream& o, node& n)
   {
-    o << "(Ascii: " << n.ascii << ", Count: " << n.count << ") "; 
+    o << "(ASCII: " << n.ascii << ", Count: " << n.count << ") "; 
 
     return o; //returning the completed output to be printed.
   }
-
-
-
-
-
   
